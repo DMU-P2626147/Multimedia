@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  
+<!-- You need to remember to include a <head> section here. The <head> element contains information about your page, such as 
+     the viewport meta tag. 
+
+    In Atom, when you create a new HTML file, type html and hit tab and it'll fill lots of this out for you. I show that at the
+    end of the Starter Code video in week 1. -->
+ 
 <meta name='viewport' content='width=device-width' />
+  
+  <!-- Your <head> section should end here -->
+  
+  <!-- Everything you want displayed on your page then goes in a <body> element, so you need to start that here -->
+  
+  <!-- This is a good start. 
+       You've tried to use the style attribute to make the heading bold, but got it a little wrong.
+       To make something bold, you need style="font-weight:bold". In this case though, headings are
+       made bold by default, so you don't need that here. -->
 <h1 style="bold";>We Make Cakes!</h1>
 <div>
   <a href="Cake.html">Home</a>
@@ -10,6 +26,9 @@
 <div>
   <h2>Tall Cakes</h2>
   <p>We can make the perfect cake for your Wedding!</p>
+  <!-- You've put a . at the end of img here, telling the browser that the folder is called "img.", with a dot. 
+       It's probably just called "img" so get rid of the dot. You should also upload that folder to github so 
+       that it can find the images. You can drag the whole folder onto the drop area on the upload page. -->
   <img src="img./tallcake.png" alt="A Tall Cake" style="max-width: 100%" />
 </div>
 <div>
@@ -20,3 +39,11 @@
 <div>
   <footer>Thank you for browsing!! Please follow the link to view our favourite cake recipe!
     <a href="https://www.bbcgoodfood.com/recipes/strawberry-cheesecake-4-easy-steps">CheeseCake</a>
+    
+    <!-- You open up a <div> and a <footer> element but you've not closed either of them.
+         The closing tags for both need to go in here.
+         Incidentally, if you're using the <footer> element here, there's no need to also wrap it in a <div>
+    -->
+
+    <!-- After all your content, you need to close the <body> element, and the <html> element that was opened
+         right at the top of the page -->
